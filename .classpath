@@ -92,14 +92,5 @@
 	<classpathentry exported="true" kind="lib" path="D:/Webdriver/resources/selenium-java-4.18.1/lib/opentelemetry-semconv-1.23.1-alpha.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Webdriver/resources/selenium-server-4.18.1.jar"/>
 	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/Admin/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar" sourcepath="C:/Users/Admin/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.apache.poi"/>
-			<attribute name="maven.artifactId" value="poi"/>
-			<attribute name="maven.version" value="5.2.3"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
