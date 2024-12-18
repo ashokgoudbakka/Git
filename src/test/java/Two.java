@@ -44,7 +44,7 @@ public class Two extends New {
            
            // Get the first sheet
            XSSFSheet sheet = workbook.getSheetAt(0);
-           XSSFRow r= sheet.getRow(2);
+           XSSFRow r= sheet.getRow(3);
            int rcount = sheet.getLastRowNum();
            System.out.println(rcount);
            int ccount = r.getLastCellNum();
@@ -63,18 +63,20 @@ public class Two extends New {
             System.out.println("No URL found in this cell.");
         }
            workbook.close();
+           
           
        }
     
 
  catch (IOException e) {
   e.printStackTrace();
+  
   } 
      
 //	}
 
 
-
+      
 
 
 // Fetch page source
@@ -109,11 +111,13 @@ try {
 } catch (Exception e) {
     e.printStackTrace();
 }
+
+
 }
 
 
 
-
+    
 	
 }
 

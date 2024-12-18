@@ -3,24 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Settings">
-        <methods>
-          <include name="three" invocation-numbers="0"/>
-          <include name="openApplication"/>
-        </methods>
-      </class> <!-- Settings -->
       <class name="Two">
         <methods>
           <include name="add"/>
         </methods>
       </class> <!-- Two -->
-      <class name="TestReal">
-        <methods>
-          <include name="TestDemo" invocation-numbers="0 1 2"/>
-          <include name="openApplication"/>
-          <include name="TestTwo" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- TestReal -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -42,5 +42,12 @@ public class steetings {
 			return driver.findElement(By.xpath("//*[text()='577']")).getText();
 		}
 		
+	@FindBy(xpath="//input[@type=\"search\"]")
+	 WebElement Display;
 	
+		public WebElement Display() {
+			return Display;
+			
+			
+		}
 }

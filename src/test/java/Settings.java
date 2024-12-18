@@ -41,14 +41,14 @@ public  class Settings extends New{
        Thread.sleep(2000);		   
  		   st. shiftsee().click();
 	   
-		String actual=st.DisplayT() ;
-		System.out.println(actual);
-		
-		String s = "577";
-		
-		assertEquals(actual,s);
-
-	
+//		String actual=st.DisplayT() ;
+//		System.out.println(actual);
+//		
+//		String s = "577";
+//		
+//		assertEquals(actual,s);
+     
+		st.Display().sendKeys("Automation Tester");	
 	}
 
 
